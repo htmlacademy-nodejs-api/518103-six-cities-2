@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
 * Студент: [Анастасия Михайловская](https://up.htmlacademy.ru/nodejs-api-individual/2/user/518103).
-* Наставник: [АндрейОсипук](https://github.com/AndreyOsipuk)..
+* Наставник: [Андрей Осипук](https://htmlacademy.ru/profile/id616431).
 
 ---
 
