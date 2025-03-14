@@ -34,11 +34,11 @@ export class VersionCommand implements Command {
         return importedContent[VERSION_FIELD];
     }
 
-    getName(): string {
+    public getName(): string {
         return CommandName.Version;
     }
     
-    execute(..._parameters: string[]): void {
+    public async execute(..._parameters: string[]): Promise<void> {
         try {
             const version = this.readVersion();
        console.info(version);
