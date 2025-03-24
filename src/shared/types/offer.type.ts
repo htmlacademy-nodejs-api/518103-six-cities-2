@@ -1,4 +1,4 @@
-import { User } from "./user.types.js";
+import { User } from "./user.type.js";
 
 export enum City {
   Paris = 'Paris',
