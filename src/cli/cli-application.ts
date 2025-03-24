@@ -35,6 +35,7 @@ export class CLIApplication {
 
     public processCommand(argv: string[]): void {
         const parsedCommand = CommandParser.parse(argv);
+        console.log(parsedCommand);
         if (!parsedCommand || !Object.entries(parsedCommand)?.length) {
             throw new Error(`Command with argv:${argv.join(' ')} is not registered.`);
         }
