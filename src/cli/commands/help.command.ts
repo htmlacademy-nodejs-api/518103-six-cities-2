@@ -3,11 +3,11 @@ import { COMMAND_PREFIX, CommandName } from "./command.constant.js";
 import { Command } from "./command.interface.js";
 
 const HELP_MESSAGE = `
-    ${chalk.yellow('Программа для подготовки данных для REST API сервера.')}
+    ${chalk.yellow("Программа для подготовки данных для REST API сервера.")}
 
-    ${chalk.green('Пример:')} cli.js --<command> [--arguments]
+    ${chalk.green("Пример:")} cli.js --<command> [--arguments]
 
-    ${chalk.magenta('Команды:')}
+    ${chalk.magenta("Команды:")}
 
     ${chalk.green(`${COMMAND_PREFIX}${CommandName.Version}`)}:     # выводит номер версии
     ${chalk.green(`${COMMAND_PREFIX}${CommandName.Help}`)}:        # печатает этот текст

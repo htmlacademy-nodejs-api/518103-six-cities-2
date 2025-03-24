@@ -13,5 +13,3 @@ extends:
   - "plugin:@typescript-eslint/recommended"
   - "htmlacademy/node"
   - "plugin:prettier/recommended"
-rules:
-  "prettier/prettier": "error"

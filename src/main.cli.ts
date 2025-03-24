@@ -3,7 +3,7 @@ import { CLIApplication } from "./cli/cli-application.js";
 import { HelpCommand, VersionCommand, ImportCommand } from "./cli/index.js";
 
 function bootstrap(): void {
-  const cliApplication = new CLIApplication()
+  const cliApplication = new CLIApplication();
   cliApplication.registerCommands([
     new HelpCommand(),
     new VersionCommand(),
