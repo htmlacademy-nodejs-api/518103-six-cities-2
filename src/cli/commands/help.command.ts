@@ -14,11 +14,11 @@ const HELP_MESSAGE = `
 `;
 
 export class HelpCommand implements Command {
-    public getName(): string {
-        return CommandName.Help;
-    }
+  public getName(): string {
+    return CommandName.Help;
+  }
 
-    public async execute(..._parameters: string[]): Promise<void> {
-        console.info(HELP_MESSAGE);
-    }
+  public async execute(..._parameters: string[]): Promise<void> {
+    console.info(HELP_MESSAGE);
+  }
 }

@@ -3,13 +3,10 @@ import { HelpCommand } from "./cli/commands/help.command.js";
 import { VersionCommand } from "./cli/commands/version.command.js";
 
 function bootstrap(): void {
-    const cliApplication = new CLIApplication();
-    cliApplication.registerCommands([
-        new HelpCommand(),
-        new VersionCommand(),
-    ]);
+  const cliApplication = new CLIApplication();
+  cliApplication.registerCommands([new HelpCommand(), new VersionCommand()]);
 
-    cliApplication.processCommand(process.argv);
+  cliApplication.processCommand(process.argv);
 }
 
 bootstrap();

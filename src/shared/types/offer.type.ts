@@ -1,29 +1,29 @@
 import { User } from "./user.type.js";
 
 export enum City {
-  Paris = 'Paris',
-  Cologne = 'Cologne',
-  Brussels = 'Brussels',
-  Amsterdam = 'Amsterdam',
-  Hamburg = 'Hamburg',
-  Dusseldorf = 'Dusseldorf'
+  Paris = "Paris",
+  Cologne = "Cologne",
+  Brussels = "Brussels",
+  Amsterdam = "Amsterdam",
+  Hamburg = "Hamburg",
+  Dusseldorf = "Dusseldorf",
 }
 
 export enum HousingType {
-  Apartment = 'apartment',
-  House = 'house',
-  Room = 'room',
-  Hotel = 'hotel'
+  Apartment = "apartment",
+  House = "house",
+  Room = "room",
+  Hotel = "hotel",
 }
 
 export enum Amenity {
-  Breakfast = 'Breakfast',
-  AirConditioning = 'Air conditioning',
-  LaptopFriendlyWorkspace = 'Laptop friendly workspace',
-  BabySeat = 'Baby seat',
-  Washer = 'Washer',
-  Towels = 'Towels',
-  Fridge = 'Fridge'
+  Breakfast = "Breakfast",
+  AirConditioning = "Air conditioning",
+  LaptopFriendlyWorkspace = "Laptop friendly workspace",
+  BabySeat = "Baby seat",
+  Washer = "Washer",
+  Towels = "Towels",
+  Fridge = "Fridge",
 }
 
 export interface Coordinates {
@@ -37,8 +37,8 @@ export const CityCoordinates: Record<City, Coordinates> = {
   [City.Brussels]: { latitude: 50.846557, longitude: 4.351697 },
   [City.Amsterdam]: { latitude: 52.370216, longitude: 4.895168 },
   [City.Hamburg]: { latitude: 53.550341, longitude: 10.000654 },
-  [City.Dusseldorf]: { latitude: 51.225402, longitude: 6.776314 }
-}; 
+  [City.Dusseldorf]: { latitude: 51.225402, longitude: 6.776314 },
+};
 
 export interface Offer {
   title: string; // 10-100 symbols
