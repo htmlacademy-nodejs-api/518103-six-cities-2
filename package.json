@@ -18,7 +18,7 @@
     "compile": "tsc -p tsconfig.json",
     "clean": "rimraf dist",
     "ts": "ts-node",
-    "cli": "npm run compile && node ./dist/main.cli.js"
+    "cli": "npm run build && node ./dist/main.cli.js"
   },
   "devDependencies": {
     "@types/node": "22.13.10",
